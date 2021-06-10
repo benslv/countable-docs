@@ -57,19 +57,19 @@ If everything is working correctly, you should see the bot appear as online in t
 
 You'll probably notice that closing the terminal window stops the bot from responding to any messages. Not exactly ideal...
 
-There are plenty of guides out there on hosting your bot permanently somewhere, so I won't go into much detail about that here. 
+For the official bot I use a package called [PM2](https://pm2.keymetrics.io/) to manage the process and make sure it doesn't randomly crash and stop working.
 
-If you want to get it running on your own server, the bot comes bundled with a package called `pm2` which will help you run the bot on your machine without needing to keep a terminal window open all the time. To get that running, type in the command:
+Once installed, just navigate into the `countable` directory and enter the following commands to get it up and running:
 
 ```bash
-yarn pm2
+# Build the application
+yarn build
+
+# Start the process (and give it a nice name)
+pm2 start build/src/index.js --name Countable
 ```
 
-You should see a message that looks a little bit like the one below. Once that's all set up, you can go ahead and close the terminal window and your bot should continue to run like normal.
+Once that's all done, you can go ahead and close the terminal window and your bot should continue to run like normal.
 
-![](.gitbook/assets/pm2-guide.png)
-
-{% hint style="info" %}
-You can stop the bot running whenever you want with the command `yarn stop`, but to actually stop the `pm2` process as well, use `yarn kill.` 
-{% endhint %}
+![You should see something like this in the terminal after running the command.](.gitbook/assets/pm2-guide.png)
 
