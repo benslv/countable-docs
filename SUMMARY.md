@@ -5,5 +5,3 @@
 
 ## Commands
 
-* [Untitled](commands/untitled.md)
-
