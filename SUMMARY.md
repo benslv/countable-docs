@@ -2,6 +2,5 @@
 
 * [Home](README.md)
 * [Self-hosting](self-hosting.md)
-
-## Commands
+* [Commands](commands.md)
 
