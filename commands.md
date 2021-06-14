@@ -97,6 +97,21 @@ Sets whether users can include a message with their count, or if it has to be th
 | :------- | :--------- | :------------------------------------ |
 | value    | true/false | Whether to enable this option or not. |
 
+## set-failrole
+
+Sets the role to be applied when a user gets the count wrong.
+
+Providing no argument will *disable* this feature.
+
+**Example:** `set-failrole @role`, `set-failrole`
+
+**Aliases:** `failrole`
+
+| Argument        | Type         | Description                      |
+| :-------------- | :----------- | :------------------------------- |
+| role (optional) | role mention | The role to be applied to users. |
+
+
 ## stats
 
 Returns the stats for yourself or another user in the current server.
