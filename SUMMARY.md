@@ -3,6 +3,7 @@
 * [Home](README.md)
 * [Self-hosting](self-hosting.md)
 * [Commands](commands.md)
+* [Troubleshooting](troubleshooting.md)
 
 ## Links
 
