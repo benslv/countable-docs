@@ -1,9 +1,18 @@
 # Table of contents
 
 * [Home](README.md)
-* [Self-hosting](self-hosting.md)
-* [Commands](commands.md)
-* [Troubleshooting](troubleshooting.md)
+
+## Features
+
+* [Commands](features/commands.md)
+* [Milestones](features/milestones.md)
+* [Save Points](features/save-points.md)
+* [Money](features/money.md)
+
+## Support
+
+* [Self-hosting](support/self-hosting.md)
+* [Troubleshooting](support/troubleshooting.md)
 
 ## Links
 

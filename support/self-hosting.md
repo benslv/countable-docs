@@ -71,5 +71,5 @@ pm2 start build/src/index.js --name Countable
 
 Once that's all done, you can go ahead and close the terminal window and your bot should continue to run like normal.
 
-![You should see something like this in the terminal after running the command.](.gitbook/assets/pm2-guide.png)
+![You should see something like this in the terminal after running the command.](../.gitbook/assets/pm2-guide.png)
 
